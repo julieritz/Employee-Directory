@@ -2,11 +2,11 @@
 ## Link
 https://damp-sands-00031.herokuapp.com/
 ## Description
-Do you work at a large company and just can't seem to keep track of everyone who works with you? Use Employee Directory!
+Do you work at a large company and can't seem to keep track of everyone who works with you? Use Employee Directory!
 
-This app lets you search through 200 of your employees by name, or allows you sort them by name. It displays their information such as phone number, email, and date of birth in a neat and organized table.
+This app lets you search through 200 of your coworkers by name, or allows you sort them by name when clicking on the "Name" heading. It displays their information such as phone number, email, and date of birth in a neat and organized table.
 
-This app was create by using React to help organize and style different data from the randomuser API.
+This app was created using React to help organize and style different data from the randomuser API.
 ## Table of Contents
 * [Installation](#installation)
 
