@@ -17,11 +17,10 @@ function Employees(props) {
                                 <th>Date of Birth</th>
                             </tr>
                         </thead>
-                        <tbody className="">
+                        <tbody>
                             {props.results.map(result => (
-                                <tr className="table" key={result.login.uuid}>
-                                    <td> <img className="
-                        "src={result.picture.medium} alt="" /></td>
+                                <tr className="table">
+                                    <td> <img src={result.picture.medium} alt="Profile Photo" /></td>
                                     <td>{result.name.first + " " + result.name.last}  </td>
                                     <td>{result.cell}</td>
                                     <td className="email"><a href={result.email}>{result.email}</a></td>
@@ -33,6 +32,7 @@ function Employees(props) {
                 </div>
             </div>
         </div>
+
     )
 }
 
