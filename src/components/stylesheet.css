@@ -1,0 +1,54 @@
+table{
+    margin-top: 15px;
+
+}
+
+th {
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: grey;
+    cursor: pointer;
+}
+
+.email {
+    color: #1C1CEB;
+    font-size: 15px;   
+}
+
+.header-box {
+    background-color: navy;
+    border-bottom: 5px solid #BF0000;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white
+}
+
+input {  
+    color: gray;
+}
+
+.searchBox {
+    padding-bottom: 10px;
+}
+
+p {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.employees{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Josefin Sans', sans-serif;  
+}
+
+td {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
