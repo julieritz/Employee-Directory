@@ -1,53 +1,37 @@
-# Unit 19 React Homework: Employee Directory
+# Employee Directory
+## Link
+https://damp-sands-00031.herokuapp.com/
+## Description
+Do you work at a large company and just can't seem to keep track of everyone who works with you? Use Employee Directory!
 
-## Overview
+This app lets you search through 200 of your employees by name, or allows you sort them by name. It displays their information such as phone number, email, and date of birth in a neat and organized table.
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+This app was create by using React to help organize and style different data from the randomuser API.
+## Table of Contents
+* [Installation](#installation)
 
-You can get a list of 200 employees here: https://randomuser.me/api/?results=200&nat=u
+* [Usage](#usage)
 
-## User Story
+* [License](#license)
 
-- As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+* [Contributors](#contributors)
 
-## Business Context
+* [Tests](#tests)
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+* [Questions](#questions)
+## Installation
+Pull/clone this repository. Check dependencies and make sure to run npm i for all necessary- you will need several testing libraries, as well as axios, express, moment, react, react-dom, react-scripts and react-moment.
+## Usage
+Navigate to the correct folder in your command line. Once there, enter "npm start" to get the app started.
 
-## Acceptance Criteria
+Your browser should launch, but if not, enter "localhost:3000" into your web browser to view the app.
+## License
+None
+## Contributors
+Julie Ritz
+## Tests
+None- use console.log if you need to troubleshoot something.
+## Questions
+Reach out to me if you have any questions, or open an issue in this repository!
 
-Given a table of random users, when the user loads the page, a table of employees should render.
-
-The user should be able to:
-
-- Sort the table by at least one category
-
-- Filter the users by at least one property.
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-Follow these guidelines for committing:
-
-- Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-- Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-- Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-- Test your application before you commit to ensure functionality at every step in the development process
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-- the URL to the deployed application
-
-- the URL to the Github repository
+![image](https://user-images.githubusercontent.com/60047114/87863984-ff6cb800-c916-11ea-85d6-911eb777ce30.png)
